@@ -1,0 +1,28 @@
+Create a User model covering
+Registeration, Email verification(send an email)
+Login (with remember me)
+Display user details
+Allow to save/update user details(DOB, Location, Hobbies etc or anything)
+
+Upload profile pic
+
+Make a csv file of user details (that he have saved) and zip it and force download
+
+
+This covers almoat everything
+
+
+I used Nodejs expressjs mongodb and angularjs
+
+
+
+An instant message application that can be included on any webpage with one line of JavaScript
+A chat room application that can be included on any webpage with one of JavaScript
+A real-time multiuser sketchpad
+A file and media drop box
+A streaming Twitter client
+A blogging / Content Management System
+An online project management tool with Vows / Cucumber integration.
+A social bookmarking application
+A browser based hackable and family friendly massive multi-player game.
+A Micro-wiki application with distributed version control

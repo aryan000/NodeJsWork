@@ -1,0 +1,47 @@
+The list
+
+1. Instant Messaging Application
+
+Any serious JavaScript developer has probably been asked to build a "facebook chat" in the past few years. There are even some services which provide this as a SaAS. The best current solution I've seen for node.js so far is AjaxIM by Joshua Gross. The initial version relied on PHP, but it appears they are moving away from this dependency. It looks like a great start, but like most node applications it's still under active development.
+
+2. A Chat Application
+
+Doing a Chat application is the hello world of node's http module. There are many many solutions that do this already, but none of them are full-featured or mature. There needs to be a concerted effort to push one of the existing libraries forward, or simply start a new code base with the recent advancements to node's core and libraries like socket.io
+
+3. A browser based real-time multiuser sketchpad
+
+There are a lot of really great things we can do with node.js and HTML5's canvas. Mr. Doob released a multi-user sketchpad which he created over a weekend. I chatted with Mr. Doob about releasing the source, but there are a few security concerns he'd have to address before it could be stable. Real-time sketching collaboration tools have been around for a while, but there has never been an easy to hack open-source one that works using a standard browser. This type of tool could be used for a variety of purposes and industries across almost any device.
+
+4. A file and media drop box
+
+Think what drop.io was, but open-source. You can setup a private file server somewhere, or you pay for hosting on a node.js hosting service like Nodejitsu. There would be drag and drop file transfers and a nice web gui to view / manage files and media assets.
+
+5. A streaming Twitter client
+
+I'm not a huge fan of Twitter, but a lot of other people are. Building a custom Twitter client can be a good starting point for new developers. I'm also told developers get requests to build custom Twitter clients. Streamie by Malte Ubl is a hackable node.js Twitter client which is pretty solid. I'd recommend checking it out.
+
+6. A blogging / CMS engine
+
+Node needs a goto Content Management System / blogging engine. Ruby on Rails has Radiant, PHP has Wordpress, node needs it's own. The Nodejitsu blog is a custom build of Tim Caswell's blogging software, Wheat. I applaud Tim for his great work in building Wheat, it's a great little git based blogging engine. The problem is, it's currently just a blogging engine. Wheat doesn't have any of the features you'd want in a full-featured CMS or Blog. Should these features be added to Wheat? The answer is probably no, but the point is Wheat is a great example of the first steps in building such an application.
+
+7. An online project management tool with Vows / Cucumber integration.
+
+This is more a techie tool, but it's an essential tool for anyone who wants to do serious node.js project development. This is about building a solid suite of tools to be able to quickly develop node.js applications. The Nodejitsu team has started an initiative for this called Prenup ( see related blog post: http://blog.nodejitsu.com/kyuri-and-prenup-our-node-knockout-entries ), but like most node projects, it's still alpha and could use a bit of work. I urge anyone who is interested in agile software development in node to check out Kyuri and Prenup.
+
+8. A social bookmarking site
+
+Think Reddit or Digg. Reddit actually is already open-source, but is written in Python and is not geared towards real-time at all. There is a unique opportunity to rethink these services in the context of real-time applications. In many ways, social bookmarking has replaced traditional forum software creating larger and more agile online communities. An easy to customize real-time social bookmarking application in node will lead to a whole new generation of communities. I haven't seen any good initiatives for this yet, but I have been working on a few prototypes.
+
+9. A browser based and family friendly massive multi-player game
+
+What node could really use is a browser based game that was easy to use, customize, and be G rated enough to used as an educational tool. There is Orona, a tank game by Stephan Kochen, but it's very alpha. Tim Caswell has done some experiments with his Adventure game and world-db, but these are just experiments. Someone could step up and make a two dimensional tile game where you went around and collected items / solved puzzles with other players. This would make a great educational tool as it would be easy for anyone ( such as a teacher ) to setup a private game server ( for their students ), and then begin to dive into customizing the game as a way of teaching programming.
+
+10. A micro-wiki application with distributed version control
+
+Node needs a generic Wiki application that is both small in size and able to maintain versions of documents across multiple instances. This will allow for a decentralized Wikipedia which could also be sharded onto local storage, and to smaller devices like mobile phones. TiddlyWiki is a neat project by Jeremy Ruston which is built on this idea. Some work has been done with node and TiddyWiki, but I couldn't find anything about using node to synchronize multiple TiddlyWiki instances.
+
+
+
+Conclusion
+
+It's easy to say that something needs to get done, but without execution an idea is worth little. I can only hope that by listing these applications, someone will be inspired to build something. If they happen to build a useful application in node.js, I know that we at Nodejitsu will be happy to support it on our platform.
