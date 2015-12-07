@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "this is a testing proejct",
+  "main": "start",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "welcome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/aryan000/node"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "jaadoo",
+    "testing",
+    "intern"
+  ],
+  "author": "aryan",
+  "license": "ISC"
+}
